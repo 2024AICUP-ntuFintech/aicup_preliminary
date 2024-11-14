@@ -49,8 +49,8 @@ model_l = model_l.to(device)
 
 #--------------------------------------------------------------------
 
-ws = WS("./初賽Baseline程式碼說明/初賽Baseline程式碼說明/data")
-pos = POS("./初賽Baseline程式碼說明/初賽Baseline程式碼說明/data")
+ws = WS("./data")
+pos = POS("./data")
 #ner = NER("./data/data")
 
 # Function to load data from JSON file
